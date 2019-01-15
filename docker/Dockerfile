@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/wadobo/decide.git .
+RUN git clone https://github.com/EvitaRamos/-EGC-830-evaramcas1.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
